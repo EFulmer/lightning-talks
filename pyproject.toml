@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lightning-talks"
+version = "0.0.0"
+description = "Jupyter Notebooks for various lightning talks"
+authors = ["Eric R. Fulmer <2952996+EFulmer@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "lightning_talks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+numpy = "^1.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
